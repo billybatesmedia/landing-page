@@ -1,0 +1,150 @@
+@import url("./layout-desktop.css");
+@import url("./layout-mobile.css") screen and (max-width: 700px);
+@import url("./typography.css");
+
+body {
+    background: #1d1f2b;
+}
+.copy a {
+    color: #848181;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.links {
+    grid-area: Links;
+}
+.grid-container p {
+    font-size: 18px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+nav.flex-container a {
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+    background: black;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    margin: 9px 0px;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+nav li {
+    padding: 10px 30px;
+}
+ul#proList{list-style-position: inside}
+li.item{list-style:none; padding:5px;}
+.social-links {
+}
+.social-links ul {
+    list-style: none;
+    padding: 0px;
+}
+.social-links a {
+    width: 25%;
+    margin: 5% 10%;
+    text-decoration: none;
+    color: #a0522a;
+    text-transform: uppercase;
+}
+.social-links li {
+    text-align: center;
+    padding: 7px 20px;
+    margin: 44.5px 0px;
+    background: black;
+    width: 100%;
+    border-radius: 5px;
+}
+.img-blog {
+    height: 71vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0 20px 0;
+}
+.blog-container .img {
+    grid-area: img;
+    width: 100%;
+    height: 100vw;
+    max-height: 610px;
+    margin: auto;
+    max-width: 610px;
+    background-size: cover;
+    background-image: url(../IMG/gear-1.jpeg);
+}
+.post-a {
+    background-image: url(../IMG/gear-1.jpeg);
+}
+.post-b {
+    background-image: url(../IMG/gear-2.jpeg);
+}
+.post-c {
+    background-image: url(../IMG/Safety-3rd.jpeg);
+}
+/* --------- blog page styles */
+.blog-container {
+    max-width: 650px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.blog-container .flex-container {
+    display: block;
+}
+.blog-container .copy p {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.blog-container .social-links li {
+    text-align: center;
+    padding: 7px;
+    margin: 26px auto;
+    background: #a2a2a2;
+    width: 92%;
+    border-radius: 5px;
+}
+
+button.homepage {
+    margin: 60px auto;
+    text-align: center;
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background: black;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 4px;
+}
+
+button.homepage a {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* --------- blog page styles */
+
+/*
+
+In the workspace provided, use a nested grid and flexbox to create a 2x2 gallery. 
+Put an `h1`  element inside each of the 4 sections with:
+
+- your favorite day of the week
+- your favorite season
+- your nickname
+- your favorite ice cream flavor
+
+You will need to add the nested grid in `index.html`, 
+as well as add the related CSS in `css/style.css`.
+
+*/

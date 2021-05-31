@@ -1,0 +1,471 @@
+
+/* =========================================== */
+/* =========================================== */
+/* ============================= Navbar Styles */
+html {
+  scroll-padding-top: 0px; /* height of sticky header */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: helvetica;
+    color: white;
+    background: #1c212b;
+}
+/* =========================================== */
+/* =========================================== */
+/* ============================= Navbar Styles */
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+li {
+    background: #d6d6d6;
+    width: 29%;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 4%;
+    border-radius: 27px;
+}
+header {
+    width: 100%;
+    background: black;
+    position: fixed;
+}
+/* ============================= Navbar Styles */
+/* =========================================== */
+/* ============================ Content Styles */
+.section {
+    background: #242c3a;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    height: 300px;
+}
+.active{
+        background: blue;
+}
+/* ============================ Content Styles */
+/* =========================================== */
+/* ============================        Styles */
+.menu {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+    background-color: rgb(255 255 255);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.anchor { 
+    padding-top: 90px; 
+}
+.light-menu {
+  width: 100%;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+  background-color: rgba(4, 180, 49, 0.6);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#menu-center {
+  width: 980px;
+  height: 75px;
+  margin: 0 auto;
+  ul {
+    margin: 15px 0 0 0;
+    li {
+      list-style: none;
+      margin: 0 30px 0 0;
+      display: inline;
+    }
+  }
+}
+.active {
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 50px;
+  background: #d6d6d6;
+  color: gray;
+}
+a {
+
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  line-height: 50px;
+}
+#home {
+
+}
+#portfolio {
+
+}
+#about {
+
+}
+#contact {
+
+}
+/* ============================= Footer Styles */
+/* =========================================== */
+/* ============================= Footer Styles */
+footer ul {
+    display: block;
+    margin: auto;
+    background: #1c222c;
+}
+footer div {
+    width: 50%;
+    float: left;
+}
+footer li {
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 10px;
+    background: #1d222d;
+    text-transform: uppercase;
+}
+footer {
+    background: grey;
+}
+/* =============================        Styles */
+/* =========================================== */
+/* =============================        Styles */
+img {
+    width: 25%;
+}
+/* ==================================== Styles */
+/* =========================================== */
+/* ==============================       Styles */
+.active {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 50px;
+    background: #d6d6d6;
+    color: #a85436;
+    font-weight: 900;
+}
+.menu {
+    background: #1c212a;
+}
+img {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 768px) {
+  img {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+.section {
+    background: #242c3a;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    height: auto;
+}
+  img {
+    width: 100%;
+    float: none;
+    margin-right: 20px;
+}
+}
+
+
+/* ==================== */
+
+section {
+    padding: 7rem 0 8em;
+}
+body:not(.overlay-header) .primary-menu > li > a{
+  color:#f1f1f1;
+}
+section article {
+    display: flow-root;
+    max-width: 1000px;
+    padding: 0px 70px;
+    margin: auto;
+}
+h2, .heading-size-2 {
+    font-size: 4rem;
+}
+h3 strong {
+text-shadow: 1px 1px 1px #0097ad;
+
+}
+h2 strong {
+    color: #c7c7c7;
+    font-size: 4rem;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0 0 0em 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.client-item {
+    height: 300px;
+    background: aliceblue;
+    width: 33%;
+    float: right;
+    padding: 0.5%;
+    margin: 0%;
+    border: 1px solid #a7a7a7;
+}
+.client-item.left {
+    background: #0096ad61;
+}
+.client-item.center {
+    background: #0096adc4;
+}
+.client-item.right {
+    background: #0096ad;
+}
+.home-text button{
+    margin-top: 0px;
+}
+button {
+    background: #004857;
+    color: white;
+    margin-top: 41px;
+    position: relative;
+    z-index: 2;
+  font-weight: 800;
+}
+h4 {
+    text-align: center;
+}
+.client-item > h4 {
+    margin-top: 228px;
+}
+section#heroHome {
+    background: #676767;
+}
+section#heroAbout {
+    background: #272727;
+}
+section#aboutHome {
+    background: #272727;
+}
+section#clientsHome {
+    background: #737272;
+}
+button#clientsHomeButton {
+      margin-left: 11px;
+
+}
+.home-text {
+    padding-top: 125px;
+}
+#heroHome article, #heroAbout article {
+    display: flex;
+    background: #e8e8e814;
+    padding: 0px 60px 0px 70px;
+}
+#heroHome, #heroAbout {
+    display: block;
+    padding: 0px !important;
+  z-index: 0;
+}
+#heroHome > article > img {
+    float: right;
+    width: 100px;
+}
+#heroHome div, #heroAbout div {
+    width: 50%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+#heroHome img {
+    display: block;
+    height: auto;
+    max-width: 65%;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+    z-index: 19;
+}
+/* project posts */
+.project-row{
+  display: flow-root;
+}
+.project-row div{
+  display: block;
+  width: 50%;
+  float: left;
+  padding:0px 2%;
+
+}
+.project-text{}
+
+.project-text h2 {
+    margin: 0px;
+}
+.project-img{}
+.project-status {}
+.project-details {}
+.project-features {
+    font-size: 18px;
+}
+.project-duration {
+    font-size: 18px;
+}
+.project-button {
+    font-size: 16px;
+}
+.cta-item h4 {
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+.cta-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    background: #004857;
+}
+.cta-item p {
+    line-height: 1.5;
+    margin: 0 0 0em 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+#ctaHome ul {
+  margin: 0px;
+  
+}
+#ctaHome ul {
+    margin-top: 20px;
+    display: flex;
+}
+#ctaHome li {
+    border-radius: 990px;
+    float: left;
+    background: black;
+    width: 32%;
+    margin: 0.5rem 0 0 0rem;
+    text-align: center;
+    padding: 11px;
+    list-style: none;
+    padding: 8px;
+}
+#ctaHome ul > li {
+    margin: 0px 0%;
+}
+
+#ctaHome ul > li:nth-child(2) {
+    margin: 0px 2%;
+}
+.cta-img{
+  margin-top: 20px;
+  height: 420px;
+/*  background-image: url(/wp-content/uploads/2020/08/Artboard-1.svg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.cta-img-one{
+  margin-top: 20px;
+  height: 420px;
+/*  background-image: url(/wp-content/uploads/2020/08/Artboard-1.svg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.cta-img-two{
+  margin-top: 20px;
+  height: 420px;
+/*  background-image: url(/wp-content/uploads/2020/08/Artboard-1.svg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.cta-img-three{
+  margin-top: 20px;
+  height: 420px;
+/*  background-image: url(/wp-content/uploads/2020/08/three.svg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+#ctaImg{}
+#one:hover .cta-img{
+background-color: blue;
+} 
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tab button {
+    background-color: #000000;
+    float: left;
+    border: none;
+    max-width: 191px;
+    outline: none;
+    margin: 20px auto;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 90px;
+    width: 34%;
+    margin: 23px 47px;
+    padding: 11px;
+}
+.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #004858;
+}
+
+
+
